@@ -3,7 +3,7 @@
 ## Problem description:
 ### Here, we hope to develop a general way of programming Machine Learning on multi-core, in order to take advantage of the massive computing power of modern computers and thus speed the learning process.
 
-## Parallel and computing techniques to be used:
+## Parallel computing techniques to be used:
 ### We will use Map-Reduce technique and possibly Apache Spark framework.
 
 
