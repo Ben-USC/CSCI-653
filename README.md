@@ -3,16 +3,23 @@
 
 # Distributed algorithms for machine learning:
 
-### Parallel computing techniques to be used:
-### We will use Map-Reduce technique and possibly Apache Spark framework.
+### Parallel computing framework we will use for this project is Apache Spark.
 
-### Here, we hope to develop a general way of programming Machine Learning on multi-core, in order to take advantage of the massive computing power of modern computers and thus speed the learning process.
+### Based on Apache Spark, we hope to realize distributed Machine Learning algorithms on multi-core, in order to take advantage of the massive computing power of modern computers and thus speed the learning process. The following shows 3 learning examples: linear regression, logistic regression and random forest.
 
 <img src="./pics/figure_1.png" />
 
-### Example: how parallel linear regression works.
+### Example 1: how parallel linear regression works.
 
 <img src="./pics/figure_2.png" />
+
+## Example 2: how paralle logistic regression works.
+
+<img src="./pics/figure_3.png" />
+
+## Example 4: how paralle random forest works.
+
+<img src="./pics/figure_4.png" />
 
 # Expected results
 ### we expect to parallelize a large class of machine learning algorithms on multicore processors, and find how much these learning algorithms can be improved in terms of running time.
