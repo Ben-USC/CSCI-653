@@ -11,17 +11,30 @@
 
 ### Based on Apache Spark, we hope to realize distributed Machine Learning algorithms on multi-core, in order to take advantage of the massive computing power of modern computers and thus speed the learning process. The following shows 3 learning examples: linear regression, logistic regression and random forest.
 
-### Example 1: how parallel linear regression works.
+### Example 1: how parallel linear regression works:
+### (1) each worker performs in-memory partial summation on its own share of the data
+### (2) cluster manager (master node) then sums all results from workers together and finds the inverse of the total matrix, and therefore computes the weight vector
 
 <img src="./pics/figure_2.png" />
 
-## Example 2: how paralle logistic regression works.
+### Example 2: how paralle logistic regression works:
+### (1) each worker computes the gradient of loss function on its own partition of the data in memory
+### (2) cluster manager sums all the partial gradients together and updates the weight vector
+### (3) each worker re-comuptes the gradient, and send results to manager, until w converges or maximum iteration reached.
 
 <img src="./pics/figure_3.png" />
 
-## Example 3: how paralle random forest works.
+### Example 3: how parallel k-means clustering works:
+### (1) manager maintains a global centroids (randomly initialized)
+### (2) each worker clusters the data points in their memory and return (key, value) pairs where keys are the centroids and values are the average of the data points assigned to that centroid
+### (3) manager updates each centroid via weighted average based on the clustering results from workers 
 
 <img src="./pics/figure_4.png" />
+
+### Example 4: how parallel random forest works:
+### (1) manager does bootstramp sampling and send different sampling of the data to each worker
+### (2) each worker runs a decision tree with only a subset of the features from the data sample, in memory
+### (3) manager combines the individual decision trees from each worker into a random forrest
 
 # Expected results
 ### we expect to parallelize a large class of machine learning algorithms on multicore processors, and find how much these learning algorithms can be improved in terms of running time.
