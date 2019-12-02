@@ -14,10 +14,8 @@
 
 <img src="./pics/figure_2.png" />
 
-### Expected result:
+# Expected results
 ### we expect to parallelize a large class of machine learning algorithms on multicore processors, and find how much these learning algorithms can be improved in terms of running time.
-
-# So what?
 
 # What's next?
 
