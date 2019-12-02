@@ -1,6 +1,8 @@
 # Parallel Computing for Machine Learning
 ### Machine learning, in general, is a statiscal approach to identify latent governing patterns in large datasets and make new discoveries with the uncovered patterns. However, the Internet today produces vast amount of data every second, and processing such enormous data with machine learning in real time is beyond the capibility of any single CPU human has created.
-### One way to address the above issue is to utilize high performance distributed computing technique. Based on devide & conquer algorithm, if we can break the standard machine learning problem into smaller and more manageable independent jobs, we will be able to complete the task quickly in a parallel fasion. This project explores a large family of machine learning algorithms, including supervised learning such as linear regression, logistic regression, random forrest, as well as unsupervised k-means clustering method. Our goal is to realize these algorithms using parallel computing framework, i.e. MapReduce and Apache Spark.
+### One way to address the above issue is to utilize high performance distributed computing technique. Based on the idea of divide & conquer, if we can break the standard machine learning problem into smaller and more manageable independent jobs, we will be able to complete the task quickly in a parallel fasion.
+
+### In this project, we explore a large family of machine learning algorithms, including supervised learning such as linear regression, logistic regression, random forrest, as well as unsupervised k-means clustering method. Our goal is to realize these algorithms using a popular parallel computing framework, i.e. Apache Spark.
 
 # Distributed algorithms for machine learning
 
