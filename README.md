@@ -41,7 +41,7 @@
 <img src="./pics/logistic_regression.png" />
 
 # What's next?
-### 1. Although Spark is more popular in industry, according to ref.2, MPI performs better than spark. 
+### 1. Although Spark is more popular in industry,  MPI performs better than spark on both communation time and execution time according to ref.2,
 ### 2. Implement parallel (deep) neural Network.
 
 # References:
