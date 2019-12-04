@@ -2,12 +2,13 @@
 
 ### Beibei (Ben), Ph.D. candidate, Department of Physics, USC
 
+## Introduction
 ### Machine learning, in general, is a statiscal approach to identify latent governing patterns in large datasets and make new discoveries with the uncovered patterns. However, the Internet today produces vast amount of data every second, and processing such enormous data with machine learning in real time is beyond the capibility of any single CPU human has created.
 ### One way to address the above issue is to utilize high performance distributed computing technique. Based on the idea of divide & conquer, if we can break the standard machine learning problem into smaller and more manageable independent jobs, we will be able to complete the task quickly in a parallel fasion.
 
 ### In this project, we explore a large family of machine learning algorithms, including supervised learning such as linear regression, logistic regression, random forrest, as well as unsupervised k-means clustering method. Our goal is to realize these algorithms using a popular parallel computing framework, i.e. Apache Spark.
 
-# Distributed algorithms for machine learning
+## Distributed algorithms for machine learning
 
 ### Parallel computing framework we will use for this project is Apache Spark. The following figure illustrates how it works.
 <img src="./pics/figure_1.png" />
@@ -39,14 +40,14 @@
 ### (2) each worker runs a decision tree with only a subset of the features from the data sample, in memory
 ### (3) manager combines the individual decision trees from each worker into a random forrest
 
-# Expected results
+## Expected results
 ### On multicore processors, after implementing common machine learning parallel algorithms, we will compare the time performce of single-core version algorithms with the parallel versions. Based on the references, time consumed during training should be reduced almost linearly depending on number of cores.
 <img src="./pics/logistic_regression.png" />
 
-# What's next?
+## What's next?
 ### 1. Although Spark is more popular in industry,  MPI performs better than spark on both communation time and execution time according to ref.2,
 ### 2. Implement parallel (deep) neural Network.
 
-# References:
+## References:
 ### 1. C.T. Chu, et al. Map-reduce for machine learning on multicore. NIPS'06 Proceedings of the 19th International Conference on Neural Information Processing Systems, 2006, 281-288.
 ### 2. S. Kamburugamuve, et al. Anatomy of machine learning algorithm implementations in MPI, Spark, and Flink. IJHPCA, 2018, 32, 61-73
