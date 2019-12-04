@@ -38,6 +38,7 @@
 
 # Expected results
 ### On multicore processors, after implementing common machine learning parallel algorithms, we will compare the time performce of single-core version algorithms with the parallel versions. Based on the references, time consumed during training should be reduced almost linearly depending on number of cores.
+<img src="./pics/logistic_regression.png" />
 
 # What's next?
 
