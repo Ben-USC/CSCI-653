@@ -37,7 +37,7 @@
 ### (3) manager combines the individual decision trees from each worker into a random forrest
 
 # Expected results
-### we expect to parallelize a large class of machine learning algorithms on multicore processors, and find how much these learning algorithms can be improved in terms of running time.
+### On multicore processors, after implementing common machine learning parallel algorithms, we will compare the time performce of single-core version algorithms with the parallel versions. Based on the references, time consumed during training should be reduced almost linearly depending on number of cores.
 
 # What's next?
 
