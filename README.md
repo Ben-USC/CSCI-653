@@ -43,5 +43,5 @@
 # What's next?
 
 # References:
-### 1.
-### 2.
+### 1.C.T. Chu, et al. Map-reduce for machine learning on multicore. NIPS'06 Proceedings of the 19th International Conference on Neural Information Processing Systems, 2006, 281-288.
+### 2. S. Kamburugamuve, et al. Anatomy of machine learning algorithm implementations in MPI, Spark, and Flink. IJHPCA, 2018, 32, 61-73
