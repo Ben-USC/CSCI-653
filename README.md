@@ -41,7 +41,9 @@
 <img src="./pics/logistic_regression.png" />
 
 # What's next?
+### 1. Although Spark is more popular in industry, according to ref.2, MPI performs better than spark. 
+### 2. Implement parallel (deep) neural Network.
 
 # References:
-### 1.C.T. Chu, et al. Map-reduce for machine learning on multicore. NIPS'06 Proceedings of the 19th International Conference on Neural Information Processing Systems, 2006, 281-288.
+### 1. C.T. Chu, et al. Map-reduce for machine learning on multicore. NIPS'06 Proceedings of the 19th International Conference on Neural Information Processing Systems, 2006, 281-288.
 ### 2. S. Kamburugamuve, et al. Anatomy of machine learning algorithm implementations in MPI, Spark, and Flink. IJHPCA, 2018, 32, 61-73
