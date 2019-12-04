@@ -1,6 +1,6 @@
 # Topic: Parallel Computing for Machine Learning
 
-### Beibei (Ben), Ph.D. candidate, Department of Physics, USC
+### Beibei (Ben) Wang, Ph.D. candidate, Department of Physics, USC
 
 ## Introduction
 ### Machine learning, in general, is a statiscal approach to identify latent governing patterns in large datasets and make new discoveries with the uncovered patterns. However, the Internet today produces vast amount of data every second, and processing such enormous data with machine learning in real time is beyond the capibility of any single CPU human has created.
